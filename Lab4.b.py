@@ -167,8 +167,15 @@ def main():
     
     load = english_words.load_factor()
     print('The load factor is: ' , load)
+    # Robert- This could be a one liner since you dont use load again 
+    # print('The load factor is: ' , english_words.load_factor())
     
     endtime2 = time.time()
     runtime2 = endtime2 - starttime2
     print(runtime2 * 1000)
 main()
+#Robert Corral - Code Review
+'''
+As before i belive the def discription goes after the def decleration line
+check style guide that Manoj sent us other than that good stuff
+'''
